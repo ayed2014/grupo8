@@ -1,0 +1,17 @@
+ public void desapilar(){
+        if (tope!=-1){
+            tope--;
+        }else{
+            throw new Error();
+        }
+    }
+    public Object verTope(){
+        return datos[tope-1];
+    }
+    public boolean isEmpty(){
+        if (tope==-1){
+            return true;
+        }
+        return false;
+    }
+
