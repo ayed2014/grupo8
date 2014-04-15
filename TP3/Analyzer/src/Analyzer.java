@@ -11,7 +11,7 @@ import java.io.IOException;
  * To change this template use File | Settings | File Templates.
  */
 public class Analyzer {
-    PilaE pilaE=new PilaE();
+    Pila pilaE=new PilaE();
     int t=0;
 
     public boolean read(File file) throws MisMatchException{
